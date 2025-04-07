@@ -63,6 +63,7 @@ namespace FullscreenLock
             TrayIconContextMenu.ResumeLayout(false);
         }
 
+
         private void OnApplicationExit(object sender, EventArgs e)
         {
             TrayIcon.Visible = false;
